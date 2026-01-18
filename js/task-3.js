@@ -5,7 +5,7 @@ nameInput.addEventListener('input', evt => {
   const targetValue = evt.target.value.trim();
 
   if (targetValue !== '') {
-    nameOutput.textContent = evt.target.value.trim();
+    nameOutput.textContent = targetValue;
   } else {
     nameOutput.textContent = 'Anonymous';
   }
